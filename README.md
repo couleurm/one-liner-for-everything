@@ -8,11 +8,13 @@ Want to automate your script/program/whatever and make it easy for people to ins
 
 # PowerShell
 
-PowerShell is a scripting and coding language that's installed out of the box on Windows. There's command you can use to execute a .py/.bat/.ps1 (PowerShell) script easily:
+PowerShell is a scripting and coding language that's installed out of the box on Windows. There's command you can use to execute a .py/.bat/.ps1 (PowerShell) that runs a more complex script easily:
 ```
 powershell iex ((New-Object System.Net.WebClient).DownloadString('https://git.io/Jsz3F'))
 ```
 > [This](https://git.io/Jsz3F) script you see above gets ran with this one-liner you can use to install my [toolbox](https://github.com/couleurm/couleurstoolbox/), it installs Chocolatey, then installs Git with Chocolatey,  clones my toolbox and puts it on the Desktop, no zip extractions or manual downloads needed! If your programs has dependecies just use Chocolatey.
+
+You can use https://git.io to shorten your very long raw.githubusercontent link
 
 ### How to run it
 Instead of opening Windows+X to select PowerShell (Admin) and pasting it in, I prefer doing this, which only requires the use of your keyboard after the one-liner being copied:
